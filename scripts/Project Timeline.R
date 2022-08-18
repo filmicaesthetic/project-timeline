@@ -154,7 +154,7 @@ data.frame(plot_outlines) %>%
   )
 
 # save plot
-ggsave("outputs/timeline_condensed.png", width = 10, height = 10)
+ggsave("outputs/project_timeline_condensed.png", width = 10, height = 10)
 
 
 # Non-condensed plot
@@ -188,4 +188,4 @@ data.frame(plot_outlines) %>%
   )
 
 # save plot
-ggsave("outputs/timeline_non_condensed.png", width = 10, height = 10)
+ggsave("outputs/project_timeline_non_condensed.png", width = 10, height = 10)
